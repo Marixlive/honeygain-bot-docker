@@ -16,6 +16,6 @@
 #### 2. Run App
 
 1. Run this command `docker build -t hg-bot:latest . `
-2. Start the docker container and run everytime on boot `docker run -dti --name hg-bot --restart=always hg-bot:latest`
+2. Start the docker container and run everytime on boot `docker run -dti --name hg-bot --restart=unless-stopped hg-bot:latest`
 
 # Congratulations!
